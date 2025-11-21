@@ -8,6 +8,6 @@ class ApiServerBService(
     private val domainService: DomainService
 ) {
     fun getServiceData(): String {
-        return domainService.getDomainData()
+        return domainService.getDomainData("api-server-b")
     }
 }
