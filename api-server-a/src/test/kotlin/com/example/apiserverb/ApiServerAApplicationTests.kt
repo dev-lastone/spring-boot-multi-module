@@ -1,10 +1,10 @@
-package com.example.springbootmultimodule
+package com.example.apiserverb
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class SpringBootMultiModuleApplicationTests {
+class ApiServerAApplicationTests {
 
 	@Test
 	fun contextLoads() {
