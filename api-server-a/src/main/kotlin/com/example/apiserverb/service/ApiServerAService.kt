@@ -1,4 +1,4 @@
-package com.example.apiservera.service
+package com.example.apiserverb.service
 
 import com.example.domain.DomainService
 import org.springframework.stereotype.Service
