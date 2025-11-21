@@ -1,11 +1,11 @@
-package com.example.springbootmultimodule
+package com.example.apiserveramodule
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class SpringBootMultiModuleApplication
+class ApiServerAApplication
 
 fun main(args: Array<String>) {
-	runApplication<SpringBootMultiModuleApplication>(*args)
+	runApplication<ApiServerAApplication>(*args)
 }
