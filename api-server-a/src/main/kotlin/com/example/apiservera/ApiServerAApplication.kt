@@ -1,4 +1,4 @@
-package com.example.apiserveramodule
+package com.example.apiservera
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
