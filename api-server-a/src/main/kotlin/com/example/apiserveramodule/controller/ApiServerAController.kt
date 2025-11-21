@@ -1,15 +1,15 @@
 package com.example.apiserveramodule.controller
 
-import com.example.domain.DomainService
+import com.example.apiserveramodule.service.ApiServerAService
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RestController
 
 @RestController
 class ApiServerAController(
-    private val domainService: DomainService
+    private val apiServiceAService: ApiServerAService
 ) {
     @GetMapping("/api")
     fun getData(): String {
-        return domainService.getDomainData()
+        return apiServiceAService.getServiceData()
     }
 }
