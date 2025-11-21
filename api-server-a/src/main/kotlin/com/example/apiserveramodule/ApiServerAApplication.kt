@@ -3,7 +3,7 @@ package com.example.apiserveramodule
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = ["com.example"])
 class ApiServerAApplication
 
 fun main(args: Array<String>) {

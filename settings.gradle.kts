@@ -1,3 +1,6 @@
 rootProject.name = "spring-boot-multi-module"
 
-include("api-server-a")
+include(
+    "api-server-a",
+    "domain",
+)
