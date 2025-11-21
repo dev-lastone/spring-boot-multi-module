@@ -1,6 +1,6 @@
-package com.example.apiserveramodule.controller
+package com.example.apiservera.controller
 
-import com.example.apiserveramodule.service.ApiServerAService
+import com.example.apiservera.service.ApiServerAService
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RestController
 
